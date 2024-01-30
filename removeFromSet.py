@@ -1,0 +1,6 @@
+user_input = input("Enter set contents: ")
+input_set = set(user_input.split(" "))
+#print(input_set)
+del_item = input("Enter item name to be removed from set.")
+input_set.remove(del_item)
+print("Updated set = ",input_set)
